@@ -157,6 +157,7 @@ section {
 .backgroundimg-container {
     padding-inline: 2.8rem;
     max-width: 192rem;
+    margin-inline: auto;
     background-image: url(img/heroimg.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -319,6 +320,8 @@ section {
 /* brands section starts here */
 
 .brands {
+    max-width: 192rem;
+    margin-inline: auto;
     background-color: #F7F7F7;
 }
 
@@ -521,6 +524,7 @@ section {
 
 .banner {
     max-width: 192rem;
+    margin-inline: auto;
     padding-inline: 2.8rem;
     background-image: url(img/liberty.png);
     background-size: cover;
@@ -612,6 +616,7 @@ section {
 
 .promotion-packages-container {
     max-width: 192rem;
+    margin-inline: auto;
     display: flex;
 }
 
@@ -644,6 +649,15 @@ section {
 
 .city {
     background-image: url(img/city.png);
+}
+
+.nature, .city {
+    transition: background-size .3s ease;
+    background-position: center;
+    background-size: 110%;
+    &:hover {
+        background-size: 100%;
+    }
 }
 
 .cardp .tag {
@@ -785,6 +799,7 @@ section {
 
 .review-bg-container {
     max-width: 192rem;
+    margin-inline: auto;
     padding-inline: 2.8rem;
     background-image: url(img/review-bg.png);
     background-size: cover;
@@ -920,6 +935,7 @@ section {
 
 .footer-bg-container {
     max-width: 192rem;
+    margin-inline: auto;
     padding-inline: 2.8rem;
     position: relative;
 }
